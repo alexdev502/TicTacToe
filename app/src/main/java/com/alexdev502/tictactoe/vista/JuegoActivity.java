@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.alexdev502.tictactoe.controlador.JuegoData;
+import com.alexdev502.tictactoe.modelo.JuegoData;
 import com.alexdev502.tictactoe.R;
 import com.alexdev502.tictactoe.componentes.tablero.TableroTicTacToe;
 

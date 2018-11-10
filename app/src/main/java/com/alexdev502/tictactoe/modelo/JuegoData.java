@@ -1,4 +1,4 @@
-package com.alexdev502.tictactoe.controlador;
+package com.alexdev502.tictactoe.modelo;
 
 import android.content.Context;
 import android.content.SharedPreferences;
