@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/llFila1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.33">
+
+        <ImageView
+            android:id="@+id/iv_f1_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+
+        <ImageView
+            android:id="@+id/iv_f1_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/iv_f1_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFila2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintTop_toBottomOf="@id/llFila1"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.33">
+
+        <ImageView
+            android:id="@+id/iv_f2_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/iv_f2_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/iv_f2_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFila3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintTop_toBottomOf="@id/llFila2"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.34">
+
+        <ImageView
+            android:id="@+id/iv_f3_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/iv_f3_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/iv_f3_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/celda_tablero_press"
+            android:layout_margin="@dimen/margen_celda_tic_tac_toe"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

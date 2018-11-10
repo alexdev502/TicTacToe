@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="jugador_gana">Jugador %1$d gana!!</string>
+    <string name="juego_empatado">Juego empatado, nadie gana.</string>
+    <string name="turno_jugador">Turno: </string>
+    <string name="jugador">Jugador %1$d</string>
+
+    <string name="victorias_j1">Victorias J1:</string>
+    <string name="victorias_j2">Victorias J2:</string>
+    <string name="empate">Empate:</string>
+
+    <string name="reiniciar_juevo">Reiniciar</string>
+
+    <string name="file_preference_key">alexdev502.tictactoe</string>
+    <string name="sp.key_empate">EMPATE</string>
+    <string name="sp.key_jugador">JUGADR_%1$d</string>
+</resources>
